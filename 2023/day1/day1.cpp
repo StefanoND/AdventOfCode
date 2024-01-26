@@ -1,4 +1,4 @@
-// Copyright 2024 Stefano N. Dobbin
+// Copyright 2024 Stefano Dobbin
 
 #include <algorithm>
 #include <fstream>
