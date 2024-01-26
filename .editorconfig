@@ -1,0 +1,19 @@
+# EditorConfig to support per-solution formatting.
+# Use the EditorConfig VS add-in to make this work.
+# http://editorconfig.org/
+
+# This is the top-most EditorConfig file, all others must be set to false
+root = true
+
+# Don't specify indent_size here. It has too many unintended consequences.
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+spelling_exclusion_path = SpellingExclusions.dic
+
+[*.{h,hpp,c,cpp}]
+indent_size = 4
+
