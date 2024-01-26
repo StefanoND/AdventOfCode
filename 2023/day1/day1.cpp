@@ -22,7 +22,6 @@ int main(int argc, char **argv) {
       if (check != numbers + (sizeof(numbers) / sizeof(numbers[0]))) {
         if (firstValue == "") {
           firstValue = c;
-          secondValue = c;
         }
         secondValue = c;
       }
